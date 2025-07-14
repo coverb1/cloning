@@ -2,6 +2,7 @@ body{
     padding: 0px;
     margin: 0px;
      font-family: "Poppins", sans-serif;
+     box-sizing: border-box;
 }
 
 .header {
@@ -47,7 +48,41 @@ background-color: white;
 .navbars button:hover{
     background-color: rgb(195, 211, 255);
 }
+.image img{
+    width: 100%;
+}
+.body-text{
+    position: absolute;
+  top: 50%;
+  left: 10%;
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+}
+.search {
+  position: relative; 
+  width: 300px; 
+}
 
+
+.search img {
+  position: absolute;   
+  left: 10px;          
+  top: 50%;            
+  transform: translateY(-50%); 
+  width: 20px;          
+  height: 20px;
+}
+
+
+.search input {
+  width: 100%;
+  padding: 10px 10px 10px 40px; 
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+}
 
 
 
